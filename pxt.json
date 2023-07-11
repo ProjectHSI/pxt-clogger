@@ -4,11 +4,14 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "datalogger": "*"
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "flashLogger.ts",
+        "serialLogger.ts"
     ],
     "testFiles": [
         "test.ts"
